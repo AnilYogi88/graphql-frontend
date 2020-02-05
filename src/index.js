@@ -5,7 +5,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import App from "./App";
 
 const client = new ApolloClient({
-  uri: "http://graphqlbackend-env.uhdc9myqj3.ap-south-1.elasticbeanstalk.com/graphql",
+  uri: "https://d390pgc5r5dtno.cloudfront.net/graphql",
   request: operation => {
     const token = localStorage.getItem("token");
     operation.setContext({
