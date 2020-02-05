@@ -1,0 +1,45 @@
+.profile-content-wrapper {
+    width: 25%;
+    text-align: left;
+    // background-color: rgba($color: #ffffff, $alpha: 0.4);
+    border-color: 1px solid #000000;
+    border-radius: 20px;
+
+    .login-form-wrapper {
+        padding: 30px 60px;
+
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            // color: #fff;
+            opacity: 0.7;
+        }
+
+        // .ant-input {
+        // //     width: 100%;
+        // //     border: none;
+        // //     border-bottom: 1px solid #fff;
+        // //     color: #fff;
+        // //     opacity: 0.7;
+        // //     background: none;
+
+        // //     &:focus {
+        // //         box-shadow: none !important;
+        // //     }
+        // // }
+
+
+        .update-btn {
+            width: 100%;
+            background: linear-gradient(90deg, #8695e6 0, #cc2374);
+            border-radius: 10px;
+            margin-bottom: 0;
+            color: #fff;
+
+            &:focus,
+            &:hover {
+                color: #40a9ff !important;
+            }
+        }
+    }
+}
